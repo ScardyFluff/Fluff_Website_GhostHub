@@ -1,0 +1,111 @@
+/*This is a CSS comment! Anything between these tags will not be run and is for your reference. Everything in this file has to do with how the website looks; I've pointed out areas where you can pick text/background colors, etc. If you want to look into doing more specific effects, google is your best friend! You can also look at what's available at https://www.w3schools.com/ */
+/*Template version 1.0.1*/
+
+/*This affects every element on the site. You can change the font and font color here.*/
+*
+{ 
+    font-family: 'Tahoma', sans-serif;
+    color: #222020; /*Text color*/
+    text-align: left;
+}
+
+body
+{
+    background: #a8aeb1; /*This is the background color for the whole site*/
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+article
+{
+    background: #f0f0f0; /*This is the white boxes that the text is in. You can change this to anything you like*/
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
+
+footer
+{
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1
+{
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+}
+
+a
+{
+    color: #6f838b; /*This is the color for links, such as the download link*/
+    text-decoration: None;
+    font-weight: bold;
+}
+
+/*Class for centering images*/
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /*If you want your images to be perfectly square, remove the border-radius bit*/
+}
+
+/*Classes for the download button*/
+.dlbutton
+{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #d8d8d8;
+    max-width: 35%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dlbutton:hover
+{
+    background-color: #cfcfcf;
+}
+
+/*This is for the webring, but you could use it for any center aligned text*/
+.centertext
+{
+	text-align: center;
+}
+
+.version
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+    text-align: center;
+}
+
+.version:hover
+{
+    background: #d8d8d8; /*If you dont want your version history to change color when you hover over it, remove this bit of code*/
+    border-radius: 5px;
+}
+
+.credit /*Please leave this credit as-is if you use the template as given! If you start making major changes, you can go ahead and get rid of it tbh. Everything I've done here is very basic HTML/CSS*/
+{
+    text-align: center;
+    color: #a4a4a4;
+    font-size: 12px;
+}
