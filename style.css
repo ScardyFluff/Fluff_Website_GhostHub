@@ -57,7 +57,7 @@ footer
 a
 {
 	color: #141414;
-	text-decoration: None;
+	text-decoration: none;
 	font-weight: bold;
 }
 
@@ -90,6 +90,7 @@ h2
 /*Classes for the download button*/
 .dlbutton
 {
+	margin-top: 20px;
 	display: block;
 	text-align: center;
 	padding: 10px;
@@ -133,6 +134,7 @@ h2
 /* Add a black background color to the top navigation */
 .topnav
 {
+	text-decoration: none;
 	border-radius: 15px;
 	background-color: #fafafa;
 	padding: 0px 18px;
@@ -166,6 +168,7 @@ h2
 /* Dropdown Button */
 .dropbtn
 {
+	text-decoration: none;
 	text-align: center;
 	background-color: #fafafa;
 	color: #141414;
