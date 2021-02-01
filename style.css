@@ -5,7 +5,21 @@
 	font-family: 'Calibri', sans-serif;
 	font-size: 18px;
 	text-align: left;
+}
 
+.solotext
+{
+	color: #141414; /*Text color*/
+	font-size: 20px;
+	text-align: center;
+}
+
+.sololink
+{
+	color: #0348e6;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
 }
 
 /* The site's body and background color */
@@ -51,7 +65,8 @@ a
 h1
 {
 	text-align: center;
-	font-size: 25px;
+	font-size: 30px;
+	margin-bottom: 3%;
 }
 
 /* header 2 */
@@ -102,64 +117,54 @@ h2
 	border-radius: 15px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 10px;
 	padding: 1%;
 	text-align: center;
 }
 
-.credit /*Please leave this credit as-is if you use the template as given! If you start making major changes, you can go ahead and get rid of it tbh. Everything I've done here is very basic HTML/CSS*/
+/*Please leave this credit as-is if you use the template as given! If you start making major changes, you can go ahead and get rid of it tbh. Everything I've done here is very basic HTML/CSS*/
+.credit
 {
-    text-align: center;
-    color: #a0a0a0;
-    font-size: 16px;
+	text-align: center;
+	color: #a0a0a0;
+	font-size: 16px;
 }
 
-
-
-
-
-
-
-
-
 /* Add a black background color to the top navigation */
-.topnav {
+.topnav
+{
 	border-radius: 15px;
 	background-color: #fafafa;
 	padding: 0px 18px;
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav a
+{
 	float: left;
 	color: #141414;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
-	border: none;
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.topnav a:hover
+{
 	background-color: #d2d2d2;
 	color: #141414;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.topnav a.active
+{
 	background-color: #d2d2d2;
 	color: #141414;
 }
 
-
-
-
-
-
-
-
 /* Dropdown Button */
-.dropbtn 
+.dropbtn
 {
 	text-align: center;
 	background-color: #fafafa;
@@ -171,28 +176,32 @@ h2
 }
 
 /* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
+.dropdown
+{
+	position: relative;
+	display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	background-color: #fafafa;
+	min-width: 100%;
+	box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+	z-index: 1;
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
-	text-align: center;
-  color: #ff0000;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+.dropdown-content a
+{
+	float: none;
+	text-align: left;
+	color: #141414;
+	padding: 14px 16px;
+	text-decoration: none;
+	display: block;
 }
 
 /* Change color of dropdown links on hover */
@@ -212,32 +221,3 @@ h2
 {
 	background-color: #d2d2d2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
