@@ -1,7 +1,0 @@
-﻿
-charset,UTF-8
-type,ghost
-name,Leif
-directory,fluff_leif
-
-balloon.directory,fluff_bugfables
