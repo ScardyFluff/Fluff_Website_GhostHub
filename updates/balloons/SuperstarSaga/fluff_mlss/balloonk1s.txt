@@ -1,0 +1,13 @@
+
+//Small Balloon 2 for Kero
+
+origin.x,32
+origin.y,19
+
+validrect.left,32
+validrect.top,19
+validrect.right,224
+validrect.bottom,151
+
+wordwrappoint.x,214
+wordwrappoint.y,0
