@@ -14,9 +14,25 @@
 	text-align: center;
 }
 
+.solosub
+{
+	color: #a0a0a0; /*Text color*/
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+}
+
 .sololink
 {
 	color: #0348e6;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+}
+
+.sololinksub
+{
+	color: #00b4fb;
 	text-decoration: none;
 	font-weight: bold;
 	text-align: center;
