@@ -1,5 +1,5 @@
-# ScardyFluff's Ukagaka Site
+# ScardyFluff's Ghost Hub
 
-Just a place for my Ghosts, Balloons, and anything Ukagaka!
+Just a place for my Ghosts, Balloons, and well... Basically anything!
 
-https://scardyfluff.github.io/Ukagaka_Fluff/
+https://scardyfluff.github.io/Fluff_Website_GhostHub/
