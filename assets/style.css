@@ -2,9 +2,8 @@
 *
 {
 	color: #141414; /*Text color*/
-	font-family: 'Calibri', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
-	text-align: left;
 }
 
 .solotext
@@ -13,6 +12,7 @@
 	font-size: 20px;
 	text-align: center;
 }
+
 
 .solosub
 {
@@ -38,23 +38,41 @@
 	text-align: center;
 }
 
+.column 
+{
+    float: left;
+    padding: 10px;
+}
+
+.row::after 
+{
+    content: "";
+    clear: both;
+    display: block;
+	text-align: center;
+}
+
 /* The site's body and background color */
 body
 {
-	background: #00b4fb;
-	margin-left: 3%;
-	margin-right: 3%;
+	/*background: #0a0a0a;*/
+    background: #00b4fb;
+	margin-left: 5%;
+	margin-right: 5%;
+    
 }
 
 /* The site's text bubbles and background color */
 article
 {
 	background: #fafafa;
-	border-radius: 15px;
-	margin-top: 15px;
+	border-radius: 20px;
+	margin-top: 20px;
+    margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 25px;
+	padding: 30px;
+    text-align: left;
 }
 
 /* The site's bottom text bubble and background color */
@@ -81,15 +99,23 @@ a
 h1
 {
 	text-align: center;
-	font-size: 30px;
+	font-size: 40px;
 	margin-bottom: 3%;
+	color: #fafafa;
 }
 
-/* header 2 */
 h2
 {
 	text-align: center;
-	font-size: 25px;
+	font-size: 30px;
+	margin-top: 1%;
+    margin-bottom: 30px;
+}
+
+/* header 2 */
+h3
+{
+	text-align: center;
 }
 
 /*Class for centering images*/
